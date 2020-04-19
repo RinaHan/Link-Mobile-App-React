@@ -1,9 +1,9 @@
-img{
-    justify-content: center;
-    align-items: center;
+#img{
     width: 100px;
-    height: 100px;
+    height: auto;
     border-radius: 50px;
+    opacity: 100%;
+    padding: 0%;
 }
 #box{
     display: flex;
@@ -39,6 +39,7 @@ img{
     color: #FAFAFA;
     border-radius: 15px;
     margin-right: 4px;
+    font-size: 11px;
 }
 #button2{
     background-color:#ED2265 ;
@@ -46,4 +47,5 @@ img{
     width: 90px;
     color: #FAFAFA;
     border-radius: 17px;
+    font-size: 11px;
 }

@@ -4,7 +4,8 @@ import './profile.css';
 const defaultImg = require('./img1.jpg');
 
 const Profile = ({name, age, bio}) => <div id="box">
-<img src={defaultImg} />
+<img src={defaultImg} id="img"
+/>
 <div id="contents">
     <a id="first_a">{name}</a>
     <a class="second">Age: {age}</a>
@@ -20,7 +21,6 @@ Profile. defaultProps = {
 }
 
 export default Profile;
-
 
 
 
