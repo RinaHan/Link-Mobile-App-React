@@ -1,0 +1,9 @@
+.alert_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 175px;
+    background-color: #FAFAFA;
+}
