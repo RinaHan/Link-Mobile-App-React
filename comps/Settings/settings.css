@@ -6,6 +6,7 @@
 #phone_text{
     flex-grow: 1;
     padding-left: 5px;
+    font-weight: bold;
 }
 img{
     padding-left: 5px;
