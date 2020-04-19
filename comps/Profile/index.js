@@ -16,7 +16,7 @@ const Profile = ({name, age, bio}) => <div id="box">
 Profile. defaultProps = {
     name:"Peter Tade",
     age:"26",
-    bio:"Are you a beaver cus dam:)"
+    bio:"Are you a beaver cus dam :)"
 }
 
 export default Profile;
