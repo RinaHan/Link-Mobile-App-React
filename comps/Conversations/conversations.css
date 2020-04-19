@@ -1,0 +1,40 @@
+.convoBlock {
+    width:414px;
+    height:112px;
+    /* background-color: #DAD; */
+    display: flex;
+    align-items: center;
+}
+
+.userPic {
+    width:66px;
+    height:66px;
+    border-radius: 30em;
+    /* background-color: red; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left:36px;
+}
+img, .userPic {
+    max-width: 66px;
+    max-height: 66px;
+}
+.nameOfUser {
+    width:120px;
+    left: 120px;
+    top:30px;
+    position: absolute;
+}
+.userMessage {
+    width:120px;
+    left:120px; 
+    position: absolute;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.openConvo {
+    position: absolute;
+    left:380px;
+}
