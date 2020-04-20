@@ -1,20 +1,22 @@
 import React from 'react';
 import './conversations.css';
 
-const userPic= require('./profpic.png');
+const defaultProfPic= require('./profpic.png');
 const arrow= require('./arrow.png');
 
-const Conversations = ({img, nameOfUser, userMessage}) => <div className="convoBlock">
+const Conversations = ({profpic, nameOfUser, userMessage}) => <div className="convoBlock">
 
-    <div className="userPic"><img src={userPic} /></div>
+    <div className="userPic"><img src={profpic} /></div>
+    <div className="userText">
     <div className="nameOfUser">{nameOfUser}</div>
     <div className="userMessage">{userMessage}</div>
+    </div>
     <div className="openConvo"><img src={arrow} /></div>
 
 </div>
 
 Conversations.defaultProps = {
-   img:userPic, arrow,
+   profpic:defaultProfPic, arrow, 
    nameOfUser:"Default Username",
    userMessage:"Default Message",
    

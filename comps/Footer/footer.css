@@ -4,6 +4,8 @@
     height:62px;
     display:flex;
    justify-content: center;
+   position: absolute;;
+
 }
 .fotter {
     display:flex;
