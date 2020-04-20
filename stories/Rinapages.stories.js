@@ -22,27 +22,8 @@ export const profile = () =>
     </div>
     <hr></hr>
     <div >
-      <Profile />
-
-      <Profile
-        name="Austin Demigorgen"
-        age="22"
-        bio="I like travel, music, food, and animals XD" />
-
-      <Profile
-        name="Isaiah Johann"
-        age="23"
-        bio="I'm an outdoorsy person who really loves animals" />
-
-      <Profile
-        name="Griffin Koontz"
-        age="25"
-        bio="I also hackpacked asia haha im so special. look at my corgi" />
-
-      <Profile
-        name="Griffin Koontz"
-        age="25"
-        bio="I like a book, friends, music, driving" />
+      <div><Profile /></div>
+    <div id="scrollid"></div>
       <hr></hr>
 
     </div>
