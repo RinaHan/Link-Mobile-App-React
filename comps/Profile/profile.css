@@ -1,14 +1,17 @@
 #whole{
     justify-content: center;
     align-items: center;
+    
     display: flex;
+    flex-direction: column;
 }
-#img{
-    width: 200px;
+#face{
+    width: 80px;
     height: auto;
-    border-radius: 50px;
+    border-radius: 40px;
     opacity: 100%;
-    padding: 0%;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 #box{
     display: flex;
@@ -18,11 +21,11 @@
     height: 95px;
     margin: 10px;
 }
-/* #contents{
+#text{
     display: flex;
     flex-direction: column;
     padding-left: 25px;
-} */
+}
 
 #first_a{
     padding-bottom: 3px;
@@ -50,6 +53,6 @@
     border-radius: 15px;
     font-size: 9px;
 }
-#contents div{
+#text div{
     padding-top: 5px;
 }

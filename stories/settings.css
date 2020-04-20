@@ -1,0 +1,109 @@
+.grayfont{
+    border-bottom: lightgray solid 1px;
+    background-color: rgb(243, 243, 243);
+    height: 45px;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(172, 170, 170);
+    padding-left: 15px;
+}
+#facebox{
+    display: flex;
+}
+#personimg{
+    background-image: url(../comps/Profile/face1.jpg);
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    background-size:cover;
+    display: flex;
+    background-color: green;
+    border-radius: 40px;
+    margin: 20px;
+}
+#persontext{
+    display: inline-flex;
+    width: 230px;
+    align-items: center;
+    position: relative;
+    right: -35px;
+}
+
+#name{
+    flex-grow: 8;
+    font-weight: bold;
+    color:#303030;
+    font-size: 20px;
+}
+#edit{
+    color: #1E757E;
+    font-weight: bold;
+    flex-grow: 1;
+}
+#arrow{
+    background-image: url(../comps/Settings/default.png);
+    width: 12px;
+    height: 12px;
+    align-items: center;
+    justify-content: center;
+    background-size:cover;
+    opacity: 60%;
+}
+#changeimg{
+    color: #1E757E;
+    font-size: 11px;
+    position: relative;
+    bottom:10px;
+    left: 10px;
+    width: 100px;
+    font-weight: bold;
+}
+.specialfont{
+    font-weight: bold;
+    font-size: 16px;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    color:#303030;
+    position: relative;
+    left:15px;
+}
+#specialimg1{
+    background-image: url(../comps/Settings/special1.png);
+    width: 110px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    background-size:cover;
+    position: relative;
+    left: 130px;
+}
+#specialimg2{
+    background-image: url(../comps/Settings/special2.png);
+    width: 110px;
+    height: 22px;
+    align-items: center;
+    justify-content: center;
+    background-size:cover;
+    position: relative;
+    left: 190px;
+}
+#specialimg3{
+    background-image: url(../comps/Settings/special3.png);
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    background-size:cover;
+    position: relative;
+    left: 150px;
+}
+#savebt{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 90px;
+}
