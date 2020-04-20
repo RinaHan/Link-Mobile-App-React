@@ -3,7 +3,7 @@ import './profile.css';
 
 const defaultImg = require('./img1.jpg');
 
-const Profile = ({name, age, bio}) => <div id="box">
+const Profile = ({name, age, bio}) => <div id="whole"><div id="box">
 <img src={defaultImg} id="img"
 />
 <div id="contents">
@@ -11,6 +11,7 @@ const Profile = ({name, age, bio}) => <div id="box">
     <a class="second">Age: {age}</a>
     <a class="second">Bio: <span id="third_a">{bio}</span></a>
     <div><button id="button1">VIEW PROFILE</button><button id="button2">MESSAGE!</button></div>
+</div>
 </div>
 </div>;
 

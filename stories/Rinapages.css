@@ -1,0 +1,28 @@
+#app{
+    width: 400px;
+    height: 900px;
+    background-color:#FAFAFA;
+}
+.profileid {
+   display: none;
+}
+#footerid{
+    scale: 80%;
+}
+#logoid{
+    background-image: url(logo.png);
+    width: 25px;
+    height: 20px;
+    background-position:center;
+    background-size:cover;
+}
+#upper{
+    display:flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+#recommendid{
+    font-weight: bold;
+}
