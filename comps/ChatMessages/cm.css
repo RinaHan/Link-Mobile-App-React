@@ -1,0 +1,11 @@
+.chat_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px 0 10px 0;
+}
+
+.chat_text {
+    max-width: 150px;
+}
