@@ -1,3 +1,13 @@
-.input_cont {
-    
+.input_cont input {
+    padding: 10px;
+    border-radius: 25px;
+    border: #AAA solid 1px;
+    margin-right: 10px;
+    width: 380px;
+    height: 30px;
+
+}
+
+.wholebutton {
+    left: 100px;
 }

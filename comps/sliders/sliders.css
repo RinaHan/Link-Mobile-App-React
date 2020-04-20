@@ -3,8 +3,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 300px;
-    width: 100vw;
+    height: 140px;
+    width: 380px;
     background-color: white;
     border-radius: 25px;
     box-shadow: lightgray 4px 8px 6px;
@@ -75,7 +75,7 @@
     background: #1E757E;
     cursor: pointer;
     -webkit-appearance: none;
-    margin-top: -5px;
+    margin-top: -6px;
   }
   input[type=range]:focus::-webkit-slider-runnable-track {
     background: #3BA3A8;
