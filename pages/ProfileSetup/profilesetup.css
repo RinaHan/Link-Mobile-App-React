@@ -1,0 +1,31 @@
+#profile_setup_page {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 420px;
+    height: 1000px;
+    background-color: #3BA3A8;
+}
+
+#header_message {
+    color: #1E757E;
+}
+
+#sentence {
+    color: #1E757E;
+}
+
+#questions_box {
+    margin: 100px;
+    padding: 100px;
+
+    top: 200px;
+}
+
+#sliders_box {
+    margin: 100px;
+    padding: 100px;
+}
+
