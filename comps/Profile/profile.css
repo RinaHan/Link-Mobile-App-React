@@ -21,7 +21,7 @@
     height: 95px;
     margin: 10px;
 }
-#text{
+.profiletext{
     display: flex;
     flex-direction: column;
     padding-left: 25px;
@@ -32,11 +32,12 @@
     font-size: 20px;
     font-weight: bold;
 }
-.second{
+.second, #third_aa{
     font-weight: bold;
     font-size: small;
 }
-#third_a{
+#third_aa{
+    color: #303030;
     font-weight: normal;
 }
 #button1{
@@ -52,6 +53,7 @@
     color: #FAFAFA;
     border-radius: 15px;
     font-size: 9px;
+    margin-top: 10px;
 }
 #text div{
     padding-top: 5px;

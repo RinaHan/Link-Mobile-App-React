@@ -11,47 +11,47 @@ const Profile = ({ name1, name2, name3, name4, name5, age1, age2, age3, age4, ag
     <div id="whole">
         <div id="box">
             <img src={Face1} id="face" />
-            <div id="text">
+            <div class="profiletext">
                 <a id="first_a">{name1}</a>
                 <a class="second">Age: {age1}</a>
-                <a class="second">Bio: <span id="third_a">{bio1}</span></a>
+                <a class="second">Bio: <span id="third_aa">{bio1}</span></a>
                 <div><button id="button1">VIEW PROFILE</button><button id="button2">MESSAGE!</button></div>
             </div>
         </div>
 
         <div id="box">
             <img src={Face2} id="face" />
-            <div id="text">
+            <div class="profiletext">
                 <a id="first_a">{name2}</a>
                 <a class="second">Age: {age2}</a>
-                <a class="second">Bio: <span id="third_a">{bio2}</span></a>
+                <a class="second">Bio: <span id="third_aa">{bio2}</span></a>
                 <div><button id="button1">VIEW PROFILE</button><button id="button2">MESSAGE!</button></div>
             </div>
         </div>
         <div id="box">
             <img src={Face3} id="face" />
-            <div id="text">
+            <div class="profiletext">
                 <a id="first_a">{name3}</a>
                 <a class="second">Age: {age3}</a>
-                <a class="second">Bio: <span id="third_a">{bio3}</span></a>
+                <a class="second">Bio: <span id="third_aa">{bio3}</span></a>
                 <div><button id="button1">VIEW PROFILE</button><button id="button2">MESSAGE!</button></div>
             </div>
         </div>
         <div id="box">
             <img src={Face4} id="face"/>
-            <div id="text">
+            <div class="profiletext">
                 <a id="first_a">{name4}</a>
                 <a class="second">Age: {age4}</a>
-                <a class="second">Bio: <span id="third_a">{bio4}</span></a>
+                <a class="second">Bio: <span id="third_aa">{bio4}</span></a>
                 <div><button id="button1">VIEW PROFILE</button><button id="button2">MESSAGE!</button></div>
             </div>
         </div>
         <div id="box">
             <img src={Face5} id="face" />
-            <div id="text">
+            <div class="profiletext">
                 <a id="first_a">{name5}</a>
                 <a class="second">Age: {age5}</a>
-                <a class="second">Bio: <span id="third_a">{bio5}</span></a>
+                <a class="second">Bio: <span id="third_aa">{bio5}</span></a>
                 <div><button id="button1">VIEW PROFILE</button><button id="button2">MESSAGE!</button></div>
             </div>
         </div>
