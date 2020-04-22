@@ -37,7 +37,7 @@
     font-size: small;
 }
 #third_aa{
-    font-weight: b;
+    color: #303030;
     font-weight: normal;
 }
 #button1{
@@ -53,6 +53,7 @@
     color: #FAFAFA;
     border-radius: 15px;
     font-size: 9px;
+    margin-top: 10px;
 }
 #text div{
     padding-top: 5px;

@@ -5,7 +5,7 @@ import Dating_Profile from '../comps/Dating_Profile';
 
 
 export default {
-    title: 'Comp',
+    title: 'RinaComponents',
     component: Settings,
   };
 
