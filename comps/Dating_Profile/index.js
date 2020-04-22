@@ -11,11 +11,11 @@ const Dating_Profile = ({ name, age, bio, location, from, major, university, hig
         <a class="con name">{name}{age}</a>
         <a id="bio">{bio}</a>
         
-        <div class="datingdiv"><img src={defaultImg1} /><a class="datingtext">{location}</a></div>
-        <div class="datingdiv"><img src={defaultImg2} /><a class="datingtext">{from}</a></div>
-        <div class="datingdiv"><img src={defaultImg3} /><a class="datingtext">{major}</a></div>
-        <div class="datingdiv"><img src={defaultImg4} /><a class="datingtext">{university}</a></div>
-        <div class="datingdiv"><img src={defaultImg4} /><a class="datingtext">{highschool}</a></div>
+        <div class="datingdiv"><img class="datingimg" src={defaultImg1} /><a class="datingtext">{location}</a></div>
+        <div class="datingdiv"><img class="datingimg" src={defaultImg2} /><a class="datingtext">{from}</a></div>
+        <div class="datingdiv"><img class="datingimg" src={defaultImg3} /><a class="datingtext">{major}</a></div>
+        <div class="datingdiv"><img class="datingimg" src={defaultImg4} /><a class="datingtext">{university}</a></div>
+        <div class="datingdiv"><img class="datingimg" src={defaultImg4} /><a class="datingtext">{highschool}</a></div>
         
         <div id="button"><button>MESSAGE!</button></div>
     </div>;

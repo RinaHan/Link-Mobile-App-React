@@ -10,7 +10,7 @@ const Face5 = require('./face5.jpg');
 const Profile = ({ name1, name2, name3, name4, name5, age1, age2, age3, age4, age5, bio1, bio2, bio3, bio4, bio5 }) =>
     <div id="whole">
         <div id="box">
-            <img src={Face1} id="face" />
+            <img src={Face1} class="face" />
             <div class="profiletext">
                 <a id="first_a">{name1}</a>
                 <a class="second">Age: {age1}</a>
@@ -20,7 +20,7 @@ const Profile = ({ name1, name2, name3, name4, name5, age1, age2, age3, age4, ag
         </div>
 
         <div id="box">
-            <img src={Face2} id="face" />
+            <img src={Face2} class="face" />
             <div class="profiletext">
                 <a id="first_a">{name2}</a>
                 <a class="second">Age: {age2}</a>
@@ -29,7 +29,7 @@ const Profile = ({ name1, name2, name3, name4, name5, age1, age2, age3, age4, ag
             </div>
         </div>
         <div id="box">
-            <img src={Face3} id="face" />
+            <img src={Face3} class="face" />
             <div class="profiletext">
                 <a id="first_a">{name3}</a>
                 <a class="second">Age: {age3}</a>
@@ -38,7 +38,7 @@ const Profile = ({ name1, name2, name3, name4, name5, age1, age2, age3, age4, ag
             </div>
         </div>
         <div id="box">
-            <img src={Face4} id="face"/>
+            <img src={Face4} class="face"/>
             <div class="profiletext">
                 <a id="first_a">{name4}</a>
                 <a class="second">Age: {age4}</a>
@@ -47,7 +47,7 @@ const Profile = ({ name1, name2, name3, name4, name5, age1, age2, age3, age4, ag
             </div>
         </div>
         <div id="box">
-            <img src={Face5} id="face" />
+            <img src={Face5} class="face" />
             <div class="profiletext">
                 <a id="first_a">{name5}</a>
                 <a class="second">Age: {age5}</a>
