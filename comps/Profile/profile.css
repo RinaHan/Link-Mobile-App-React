@@ -5,13 +5,14 @@
     display: flex;
     flex-direction: column;
 }
-#face{
-    width: 80px;
+.face{
+    width: 150px;
     height: auto;
     border-radius: 40px;
-    opacity: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
+    /* opacity: 100%; */
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
 }
 #box{
     display: flex;
@@ -54,7 +55,4 @@
     border-radius: 15px;
     font-size: 9px;
     margin-top: 10px;
-}
-#text div{
-    padding-top: 5px;
 }
