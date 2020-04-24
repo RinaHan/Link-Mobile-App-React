@@ -5,7 +5,7 @@ import RecommendedPage from '../pages/RecommendedPage';
 
 
 export default {
-    title: 'Recommended',
+    title: 'Recommended page',
     // component: Settings,
   };
 

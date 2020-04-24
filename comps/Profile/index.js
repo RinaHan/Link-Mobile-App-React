@@ -7,7 +7,7 @@ const Face3 = require('./face3.jpg');
 const Face4 = require('./face4.jpg');
 const Face5 = require('./face5.jpg');
 
-const Profile = ({ name1, name2, name3, name4, name5, age1, age2, age3, age4, age5, bio1, bio2, bio3, bio4, bio5 }) =>
+const Profile = ({ name1, name2, name3, name4, name5, age1, age2, age3, age4, age5, bio1, bio2, bio3, bio4, bio5, viewprofileonClick }) =>
     <div id="whole">
         <div id="box">
             <img src={Face1} class="face" />
@@ -15,7 +15,7 @@ const Profile = ({ name1, name2, name3, name4, name5, age1, age2, age3, age4, ag
                 <a id="first_a">{name1}</a>
                 <a class="second">Age: {age1}</a>
                 <a class="second">Bio: <span id="third_aa">{bio1}</span></a>
-                <div><button id="button1">VIEW PROFILE</button><button id="button2">MESSAGE!</button></div>
+                <div><button id="button1" >VIEW PROFILE</button><button id="button2">MESSAGE!</button></div>
             </div>
         </div>
 
@@ -52,12 +52,14 @@ const Profile = ({ name1, name2, name3, name4, name5, age1, age2, age3, age4, ag
                 <a id="first_a">{name5}</a>
                 <a class="second">Age: {age5}</a>
                 <a class="second">Bio: <span id="third_aa">{bio5}</span></a>
-                <div><button id="button1">VIEW PROFILE</button><button id="button2">MESSAGE!</button></div>
+                <div><button id="button3" onClick={viewprofileonClick}>VIEW PROFILE</button><button id="button2">MESSAGE!</button></div>
             </div>
         </div>
     </div>;
 
 Profile.defaultProps = {
+    viewprofileonClick: ButtonClick,
+
     name1: "Peter Tade",
     age1: "26",
     bio1: "Are you a beaver cus dam :)",
@@ -78,6 +80,11 @@ Profile.defaultProps = {
     age5: "25",
     bio5: "I like a book, friends, music, driving"
 }
+
+function ButtonClick(){
+    alert("viewprofile")
+}
+
 
 export default Profile;
 
