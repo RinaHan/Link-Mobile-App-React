@@ -1,6 +1,7 @@
 import React from 'react';
 import './profilesetup.css';
 import Questions from '../../comps/questions';
+import Questionver from '../../comps/Questionver';
 import Sliders from '../../comps/sliders';
 import Buttons from '../../comps/Buttons';
 
@@ -9,9 +10,8 @@ const ProfileSetup = () =>
         <div id="header_message">Looks like you're new!</div>
         <p id="sentence">Lets get youre profile setup so we can get you Linkt up!</p>
         <div id="profilealign">
-            <Questions 
-            text4= "Other"/>
-            <Questions 
+            <Questions />
+            <Questionver
             text1= "Show me"
             text2= "Women"
             text3= "Man"
