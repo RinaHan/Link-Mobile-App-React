@@ -1,0 +1,9 @@
+.mainP {
+    width:414px;
+    height:896px;
+    background-color: #DEB;
+}
+.msgFooter {
+    position:sticky;
+    bottom:0px;
+}

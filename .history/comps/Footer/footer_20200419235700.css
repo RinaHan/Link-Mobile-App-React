@@ -1,0 +1,17 @@
+.footer {
+    /* background-color: #BED; */
+    width:414px;
+    height:62px;
+    display:flex;
+   justify-content: center;
+   position: relative;
+
+}
+.fotter {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:380px;
+    height:62px;
+  
+}

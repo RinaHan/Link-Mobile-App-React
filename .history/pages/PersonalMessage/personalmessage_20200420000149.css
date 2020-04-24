@@ -1,0 +1,20 @@
+.mainP {
+    width:414px;
+    height:896px;
+    background-color: #DEB;
+    display:flex;
+    align-items: baseline
+}
+.msgFooter {
+    position: relative;
+    bottom:0;
+    width:414px;
+    height:62px;
+    background-color: #BED;
+}
+.messageBox {
+    width:414px;
+    height:698px;
+    position: realtive;
+    background-color: #DAD;
+}
