@@ -3,6 +3,7 @@ import React, {UseState} from 'react';
 import Header from '../comps/header';
 import Input from '../comps/input';
 import Questions from '../comps/questions';
+import Questionver from '../comps/questionver';
 import Sliders from '../comps/sliders';
 import CustomButton from '../comps/CustomButton';
 import { useState } from 'react';
@@ -20,6 +21,8 @@ placeholder="custom placeholder"
 />
 
 export const MyQuestions = () => <Questions />;
+
+export const MyQuestionver = () => <Questionver />;
 
 export const MySliders = () => <Sliders />;
 
