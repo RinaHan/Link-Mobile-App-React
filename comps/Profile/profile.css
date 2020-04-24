@@ -8,10 +8,7 @@
     width: 150px;
     height: auto;
     border-radius: 40px;
-    /* opacity: 100%; */
-    /* justify-content: center;
-    align-items: center;
-    display: flex; */
+   
 }
 #box{
     display: flex;

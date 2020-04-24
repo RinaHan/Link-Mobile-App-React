@@ -2,9 +2,9 @@ import React from 'react';
 import ProfileSetup from '../pages/ProfileSetup';
 
 export default {
-    title:"ProfileSetup",
+    title:"ProfileSetup Page",
     // component:MessagePage,
 
 };
 
-export const MyProfileSetup = () => <ProfileSetup />
+export const MyProfileSetPage = () => <ProfileSetup />
