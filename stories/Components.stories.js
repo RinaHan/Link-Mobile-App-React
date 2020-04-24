@@ -4,8 +4,9 @@ import Profile from '../comps/Profile';
 import Dating_Profile from '../comps/Dating_Profile';
 
 
+
 export default {
-    title: 'Comp',
+    title: 'RinaComponents',
     component: Settings,
   };
 
@@ -20,3 +21,4 @@ export const profile = () =><div>
 export const dating_profile = () =><div>
 <Dating_Profile />
 </div>
+

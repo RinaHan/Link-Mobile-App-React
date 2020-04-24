@@ -1,0 +1,23 @@
+#profilewhole {
+    width: 414px;
+    height: 896px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #3BA3A8;
+}
+
+#header_message {
+    color: #FAFAFA;
+    font-size: 37px;
+    font-weight: bold;
+   padding-top: 20px;
+}
+#sentence {
+    color: #FAFAFA;
+    margin: 25px;
+}
+#profilebutton{
+    padding-top: 30px;
+}

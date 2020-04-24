@@ -1,0 +1,46 @@
+.question_bubble {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 170px;
+    width: 380px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow:#1E757E 4px 8px 6px;
+    color: #1E757E;
+    position: relative;
+    right: -14px;
+    margin-bottom: 20px;
+}
+
+div .title_text {
+    width: 300px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 22px;
+}
+.answer_box {
+    width: 300px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.answer_text {
+    flex-grow: 2;
+    padding: 5px 0px 3px 0px;
+    font-size: 20px;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    border-radius: 100px;
+    background-color: #1E757E;
+}
+.dot1 {
+    height: 15px;
+    width: 15px;
+    border-radius: 100px;
+    background-color: rgb(195, 230, 233);
+}
