@@ -1,31 +1,23 @@
-#profile_setup_page {
-    position: relative;
-    display: inline-flex;
+#profilewhole {
+    width: 414px;
+    height: 896px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     /* justify-content: center; */
-    flex-direction: column;
-    width: 420px;
-    height: 1000px;
     background-color: #3BA3A8;
 }
 
 #header_message {
-    color: #1E757E;
+    color: #FAFAFA;
+    font-size: 37px;
+    font-weight: bold;
+   padding-top: 20px;
 }
-
 #sentence {
-    color: #1E757E;
+    color: #FAFAFA;
+    margin: 25px;
 }
-
-#questions_box {
-    margin: 100px;
-    padding: 100px;
-
-    top: 200px;
+#profilebutton{
+    padding-top: 30px;
 }
-
-#sliders_box {
-    margin: 100px;
-    padding: 100px;
-}
-
