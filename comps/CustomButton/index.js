@@ -3,7 +3,7 @@ import './custombutton.css';
 
 //Made the UI
 const CustomButton = ({ text, color, width, onClick }) => <div
-    style={{ backgroundColor: color, boxShadow: "1px 1px 5px" + color, width: width }}
+    style={{ backgroundColor: color, width: width }}
     className="custom_button_box"
     onClick={onClick}>
     <div className="custom_button_box_inner">
