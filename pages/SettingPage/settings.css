@@ -43,6 +43,11 @@
     font-weight: bold;
     flex-grow: 1;
 }
+#persontext #edit:hover {
+    color: rgb(45, 184, 199);
+}
+#persontext #edit {
+    cursor: pointer;}
 #arrow{
     background-image: url(../../comps/Settings/default.png);
     width: 12px;

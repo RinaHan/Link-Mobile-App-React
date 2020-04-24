@@ -8,7 +8,7 @@ import './face.css';
 
 
 
-const SettingdPage = ({}) => 
+const SettingdPage = ({editprofileonClick}) => 
 <div id="app">
     <div id="upper">
       <div id="recommendid">Settings</div>
@@ -18,11 +18,11 @@ const SettingdPage = ({}) =>
     <div id="facebox">
       <div>
         <div id="personimg"></div>
-        <div id="changeimg">change profile photo</div>
+        <a id="changeimg">change profile photo</a>
       </div>
       <div id="persontext">
         <div id="name">Peter Tade</div>
-        <div id="edit">Edit profile </div>
+        <div id="edit" onClick={editprofileonClick}>Edit profile </div>
         <div id="arrow"> </div>
       </div>
     </div>
@@ -70,8 +70,13 @@ const SettingdPage = ({}) =>
     <div style={{ borderBottom: "1px lightgrey solid" }}></div>
   </div>;
 
-SettingdPage. defaultProps = {
-
+function ButtonClick(){
+  alert("editprofile")
 }
+
+SettingdPage. defaultProps = {
+  editprofileonClick: ButtonClick
+}
+
 
 export default SettingdPage;
