@@ -1,37 +1,15 @@
 import React from 'react';
-import Settings from '../comps/Settings';
-import Profile from '../comps/Profile';
-import Footer from '../comps/Footer';
-import Buttons from '../comps/Buttons';
+import Settings from '../../comps/Settings';
+// import Profile from '../comps/Profile';
+import Footer from '../../comps/Footer';
+import Buttons from '../../comps/Buttons';
+import './settings.css';
 import './face.css';
-import './settings.css'
 
 
 
-export default {
-  title: 'Recommended, Settings',
-  component: Profile,
-};
-
-const defaultImg = require('./logo.png')
-
-export const profile = () =>
-  <div id="app">
-    <div id="upper">
-      <div id="recommendid">Recommended</div>
-      <div id="logoid"></div>
-    </div>
-    <div style={{ borderBottom: "1px lightgrey solid" }}></div>
-    <div >
-      <div><Profile /></div>
-      <div id="scrollid"></div>
-      <div style={{ borderBottom: "1px lightgrey solid" }}></div>
-    </div>
-    <div id="footerid"><Footer /></div>
-  </div>
-
-export const settings = () =>
-  <div id="app">
+const SettingdPage = ({}) => 
+<div id="app">
     <div id="upper">
       <div id="recommendid">Settings</div>
     </div>
@@ -90,4 +68,10 @@ export const settings = () =>
     </div>
     <div id="footerid"><Footer /></div>
     <div style={{ borderBottom: "1px lightgrey solid" }}></div>
-  </div>
+  </div>;
+
+SettingdPage. defaultProps = {
+
+}
+
+export default SettingdPage;
