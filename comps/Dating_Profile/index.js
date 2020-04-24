@@ -1,6 +1,8 @@
 import React from 'react';
 import './dating_profile.css';
 
+import CustomButton from '../CustomButton';
+
 const defaultImg1 = require('./img1.png');
 const defaultImg2 = require('./img2.png');
 const defaultImg3 = require('./img3.png');
@@ -11,13 +13,13 @@ const Dating_Profile = ({ name, age, bio, location, from, major, university, hig
         <a class="con name">{name}{age}</a>
         <a id="bio">{bio}</a>
         
-        <span><img src={defaultImg1} /><a>{location}</a></span>
-        <span><img src={defaultImg2} /><a>{from}</a></span>
-        <span><img src={defaultImg3} /><a>{major}</a></span>
-        <span><img src={defaultImg4} /><a>{university}</a></span>
-        <span><img src={defaultImg4} /><a>{highschool}</a></span>
+        <div class="datingdiv"><img class="datingimg" src={defaultImg1} /><a class="datingtext">{location}</a></div>
+        <div class="datingdiv"><img class="datingimg" src={defaultImg2} /><a class="datingtext">{from}</a></div>
+        <div class="datingdiv"><img class="datingimg" src={defaultImg3} /><a class="datingtext">{major}</a></div>
+        <div class="datingdiv"><img class="datingimg" src={defaultImg4} /><a class="datingtext">{university}</a></div>
+        <div class="datingdiv"><img class="datingimg" src={defaultImg4} /><a class="datingtext">{highschool}</a></div>
         
-        <div id="button"><button>MESSAGE!</button></div>
+        <div id="dating_button"><CustomButton color="#ED2265" text="MESSAGE!"/></div>
     </div>;
 
 Dating_Profile. defaultProps = {

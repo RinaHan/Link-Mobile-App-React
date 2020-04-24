@@ -1,12 +1,16 @@
 #phone_box{
     display: inline-flex;
-    width: 350px;
+    width: 400px;
     padding: 10px;
+    height: 33px;
+    align-items: center;
+    display: flex;
 }
 #phone_text{
-    flex-grow: 1;
+    flex-grow: 2;
     padding-left: 5px;
     font-weight: bold;
+    color:#303030;
 }
 /* img{
     padding-left: 5px;
