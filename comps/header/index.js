@@ -1,8 +1,19 @@
 import React from 'react';
 import './header.css';
 
-const Header = () => <div className="header_box">
-    <h1 className="text">Messages</h1>
+const Header = ({text, fontSize, color}) => 
+<div>
+    <h1 style={{
+        fontSize:fontSize, 
+        color:color}}>
+            {text}
+        </h1>
 </div>
+
+Header.defaultProps = {
+    text: "Header",
+    fontSize: 12,
+    color: "#000",
+}
 
 export default Header;
