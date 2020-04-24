@@ -7,8 +7,8 @@
    position: absolute;
    background-color: #FAFAFA;
    border-top: 1px solid rgb(219, 219, 219); 
-
 }
+
 .fotter {
     display:flex;
     justify-content: space-around;

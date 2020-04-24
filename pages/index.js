@@ -1,10 +1,9 @@
-import Link from 'next/link';
-import Router from 'next/router';
-import './app.css';
+import Link from "next/link";
+import "./app.css";
 
-const Index = () =>
-<div>
-Hello.
+const Index = () => <div>Index
+
+<Link href="/Messages">Messages!</Link>
 </div>
 
 export default Index;

@@ -1,0 +1,46 @@
+.mainP {
+    width:414px;
+    height:896px;
+    /* background-color: #DEB; */
+    display:flex;
+    flex-direction: column;
+  
+}
+.msgFooter {
+    position: relative;
+    bottom:0;
+    width:414px;
+    height:62px;
+    /* background-color: #BED; */
+}
+.messageBox {
+    width:414px;
+    height:698px;
+    position: realtive;
+    /* background-color: #DAD; */
+}
+.input {
+    width:408px;
+    height: 24px;
+    border-radius:10px;
+    position: relative;
+    border:1px solid lightgray;
+    bottom:4px;
+    cursor: pointer;
+    
+    border:none;
+}
+.inputCont {
+    display:flex;
+   flex-direction: row;
+   flex-grow: 2;
+    background-color: #DAD;
+    max-height: 24px;
+   border: 1px solid grey;
+    
+   align-items: center;
+}
+.button {
+    max-height:100%;
+    color: #3BA3A8;
+}

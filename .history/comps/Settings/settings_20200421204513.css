@@ -1,0 +1,13 @@
+#phone_box{
+    display: inline-flex;
+    width: 350px;
+    padding: 10px;
+}
+#phone_text{
+    flex-grow: 1;
+    padding-left: 5px;
+    font-weight: bold;
+}
+/* img{
+    padding-left: 5px;
+} */

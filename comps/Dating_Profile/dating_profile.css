@@ -19,13 +19,31 @@
     font-size: 23px;
     font-weight: bold;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+/* img{
+=======
 .datingimg{
+>>>>>>> master
+=======
+.datingimg{
+>>>>>>> f05d0dc63e80a991fd640bcb3f3d9d29b2db0db3
     height: 19px;
     width: auto;
     padding-right: 20px;
     opacity: 70%;
+<<<<<<< HEAD
+<<<<<<< HEAD
+} */
+span{
+=======
 }
 .datingdiv{
+>>>>>>> master
+=======
+} */
+.datingdiv{
+>>>>>>> f05d0dc63e80a991fd640bcb3f3d9d29b2db0db3
     padding-bottom: 10px;
 }
 

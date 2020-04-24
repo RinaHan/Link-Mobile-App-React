@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+
+/* #img{
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    opacity: 100%;
+    padding: 0%;
+} */
+
+=======
+>>>>>>> f05d0dc63e80a991fd640bcb3f3d9d29b2db0db3
 #whole{
     justify-content: center;
     align-items: center;
@@ -10,6 +22,7 @@
     border-radius: 40px;
    
 }
+
 #box{
     display: flex;
     background-color: rgb(241, 241, 241);
