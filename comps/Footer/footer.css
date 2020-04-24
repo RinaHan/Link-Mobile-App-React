@@ -4,13 +4,14 @@
     height:62px;
     display:flex;
    justify-content: center;
-   position: relative;
-   border-top: 2px solid lightgray;
-
+   position: absolute;
+   background-color: #FAFAFA;
+   border-top: 1px solid rgb(219, 219, 219); 
 }
+
 .fotter {
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width:380px;
     height:62px;
