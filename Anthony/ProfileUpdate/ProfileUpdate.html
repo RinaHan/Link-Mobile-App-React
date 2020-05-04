@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkt</title>
+    <link rel="stylesheet" href="ProfileUpdate.css">
+</head>
+<body>
+    <div id="AppMain">
+        <div id="App">
+            <div class="TitleDiv">
+                <div class="HeaderBox">
+                    <h1 class="TITLE">Preferences</h1>
+                    <div id="line1"></div>
+                </div>
+
+                <div id="blank"></div>
+
+                <div class="HeaderBox">
+                    <h1 class="TITLE">Questions</h1>
+                    <div id="line2"></div>
+                </div>
+
+                <!-- <h3 class="SubText">Please answer the following questions in order to refine your match suggestions.</h3> -->
+            </div>
+
+            <div class="QuestionBox">
+                <div class="QuestionTextBox">
+                    <p id="QuestionTitle">I identify as a</p>
+                </div>
+                <div class="QuestionTextBox">
+                    <p class="QuestionText">Woman</p>
+                    <div class="Dot"></div>
+                </div>
+                <div class="QuestionTextBox">
+                    <p class="QuestionText">Man</p>
+                    <div class="Dot"></div>
+                </div>
+                <div class="QuestionTextBox">
+                    <p class="QuestionText">Other</p>
+                    <div class="Dot"></div>
+                </div>
+            </div>
+
+            <div class="QuestionBox">
+                <div class="QuestionTextBox">
+                    <p id="QuestionTitle">Show me</p>
+                </div>
+                <div class="QuestionTextBox">
+                    <p class="QuestionText">Woman</p>
+                    <div class="Dot"></div>
+                </div>
+                <div class="QuestionTextBox">
+                    <p class="QuestionText">Man</p>
+                    <div class="Dot"></div>
+                </div>
+                <!-- <div class="QuestionTextBox">
+                    <p class="QuestionText">Other</p>
+                    <div class="Dot"></div>
+                </div> -->
+            </div>
+
+            <div class="QuestionBox">  
+                    <div class="title_box">
+                        <p class="title1">Maximum Distance</p>
+                        <p class="bubble">
+                            <span id="result">0</span><br />
+                            <span id="units">km</span>
+                        </p>
+                    </div>
+                    <input type="range" id="slider" name="slider" min="0" max="150" step="1" onChange={showValue} />           
+            </div>
+
+            <div class="QuestionBox">  
+                <div class="title_box">
+                    <p class="title1">Age Range</p>
+                    <p class="bubble">
+                        <span id="result">18 </span><br />
+                        <span id="units">- 99</span>
+                    </p>
+                </div>
+                <input type="range" id="slider" name="slider" min="0" max="150" step="1" onChange={showValue} />           
+            </div>
+
+            <div class="button_container">
+                <div class="button_container_inner">Update</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
