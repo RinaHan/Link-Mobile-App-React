@@ -2,8 +2,7 @@
 
 
 
-**-Demo-**
-- [Link demo video is here!](http://bit.ly/2WIo3HD)
+
 
 **-Summary-**
 - Academic project | Feb - May 2020
