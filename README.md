@@ -5,7 +5,9 @@
 
 
 **-Summary-**
-- Academic project | Feb - May 2020
+ Academic project | Feb - May 2020
+
+- Front-end Developer & UI Designer: Rina, Ian, Cindy, Anthony
 
 **-Pages-**
 
